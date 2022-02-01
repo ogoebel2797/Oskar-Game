@@ -1,0 +1,2 @@
+
+global.points = 0;
