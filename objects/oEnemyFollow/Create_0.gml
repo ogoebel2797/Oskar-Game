@@ -16,4 +16,4 @@ xDirection = 1;
 xSpeed = 2;
 
 //setting gravity
-grav = 0.4;
+grv = 0.4;
