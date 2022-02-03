@@ -16,4 +16,4 @@ xDirection = 1;
 xSpeed = 2;
 
 //setting gravity
-global.grv = 0.4;
+grav = 0.4;
