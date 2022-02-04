@@ -28,4 +28,4 @@ isInvincible = false;
 hp = 6
 
 //level timer
-levelTimer = 10;
+levelTimer = 100;
