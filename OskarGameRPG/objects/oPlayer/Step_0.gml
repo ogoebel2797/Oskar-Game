@@ -7,7 +7,9 @@ if isInvincible
 	if invTimer <= 0
 	{
 		isInvincible = false;
+		invTimer = 2;
 	}
+}
 
 isInvincible = false;
 

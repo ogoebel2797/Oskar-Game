@@ -11,18 +11,7 @@ if (isInvincible)
 	}
 }
 
-turnTimer -= 1/room_speed;
-if (invTimer < 0)
-{
-	turnTimer = 2.5;
-	xDirection = -xDirection
-}
-xVector = xSpeed * xDirection
-
-if (place_meeting(x + xVector, y, oWall))
-{
-	xDirection = -xDirection;
-	turnTimer = 2.5;
-}
+xDirection = sign(oPlayer.x - x);
+xVector = xSpeed * xDirection;
 
 x = x + xVector;
