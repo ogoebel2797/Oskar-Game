@@ -5,17 +5,14 @@
 // how many pixels per frame you want our player to move
 xSpeed = 4;
 
-
+ySpeed = 4;
 
 //what direction the player is moving. 1 = right, -1 = left, 0 = not moving at all {facing front???]
 xDirection = 0;
 
 yVector = 0;
 
-//setting gravity
-grv = 0.4;
-
-jumpForce = -13;
+grv = 0;
 
 //coins and points
 

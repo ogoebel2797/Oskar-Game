@@ -19,6 +19,14 @@ if (abs(oPlayer.x - x) < 1024)
 	x = x + xVector
 }
 
+yDirection = sign(oPlayer.y - y);
+yVector = ySpeed * yDirection;
+
+if (abs(oPlayer.y - y) < 1024)
+{
+	y = y + yVector
+}
+
 shotTimer -= 1/room_speed;
 
 if (shotTimer < 0)

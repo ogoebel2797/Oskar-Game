@@ -5,7 +5,7 @@
 isInvincible = false;
 
 //health points
-hp = 1000
+hp = 10
 
 //timer
 invTimer = 0.5;
@@ -14,9 +14,8 @@ invTimer = 0.5;
 turnTimer = 2.5;
 xDirection = 1;
 xSpeed = 2;
-
-//setting gravity
-grv = 0.4;
+yDirection = 1;
+ySpeed = 2;
 
 //timer
 shotTimer = 1
