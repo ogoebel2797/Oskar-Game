@@ -5,7 +5,10 @@
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "sWall",
+    "path": "sprites/sWall/sWall.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
